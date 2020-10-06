@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="estilosestudiante.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
 </head>
+
 <body>
 
     <form action="..//controlador/coestudiante.php" method="GET">
@@ -31,12 +33,13 @@
             </div>
             <div class="grupo">
                 <input type="date" name="Fecha_estudiante" id="Fecha_estudiante" required">
-     <span class="barra"></span>
+                <span class="barra"></span>
                 <label>Fecha de nacimiento</label>
             </div>
-            <button name="Boton" value="Enviar" id="Boton"type="submit">Enviar</button>
+            <button name="Boton" value="Enviar" id="Boton" type="submit">Enviar</button>
 
         </div>
     </form>
 </body>
+
 </html>
